@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>IntelDrop - Discover Macro Alpha That Moves Markets</title>
+        <meta
+            name="description"
+            content="Macro intelligence platform that transforms 50+ institutional sources into 8-minute briefings revealing investment opportunities from geopolitical and economic trends."
+        />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:title"
+            content="IntelDrop - Discover Macro Alpha That Moves Markets"
+        />
+        <meta
+            property="og:description"
+            content="Macro intelligence platform for sophisticated investors. Get institutional-grade research on geopolitical trends and economic developments in 8-minute audio briefings."
+        />
+        <meta property="og:image" content="./assets/og-image.jpg" />
+        <meta property="og:url" content="https://inteldrop.app" />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+            property="twitter:title"
+            content="IntelDrop - Macro Intelligence for Investment Alpha"
+        />
+        <meta
+            property="twitter:description"
+            content="Track central bank policies, geopolitical shifts, and supply chain disruptions before they hit mainstream news. 8-minute briefings that reveal tomorrow's investment opportunities."
+        />
+        <meta property="twitter:image" content="./assets/og-image.jpg" />
+
+        <!-- Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            primary: "#00d084",
+                            secondary: "#ff6b35",
+                            accent: "#7c3aed",
+                            success: "#004d40",
+                            dark: "#0a0a0b",
+                            light: "#F2F2F7",
+                        },
+                    },
+                },
+            };
+        </script>
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="styles.css" />
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+
+        <!-- Preconnect for performance -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body class="font-inter antialiased bg-dark text-white">
+        <!-- Header -->
+        <header
+            class="fixed top-0 w-full bg-dark/80 backdrop-blur-md z-50 border-b border-gray-800"
+        >
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-16">
+                    <div class="flex items-center">
+                        <img
+                            src="./assets/logo.png"
+                            alt="IntelDrop"
+                            class="h-8 w-auto"
+                        />
+                        <span class="ml-2 text-xl font-bold text-white"
+                            >IntelDrop</span
+                        >
+                    </div>
+                    <a
+                        href="#download"
+                        class="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-primary/80 transition-colors"
+                    >
+                        Download Now
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section
+            class="pt-24 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-primary/10 to-secondary/10"
+        >
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center">
+                    <h1
+                        class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight"
+                    >
+                        Markets Don't Wait.<br />
+                        <span class="text-primary">Neither Should You.</span>
+                    </h1>
+                    <p
+                        class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto"
+                    >
+                        IntelDrop transforms 50+ institutional sources into
+                        8-minute briefings that reveal tomorrow's investment
+                        opportunities. Get the research edge — delivered to your
+                        commute.
+                    </p>
+                    <div
+                        class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
+                    >
+                        <a href="#" class="app-store-btn">
+                            <img
+                                src="./assets/app-store-badge.svg"
+                                alt="Download on the App Store"
+                                class="h-14 w-auto"
+                            />
+                        </a>
+                        <!-- <div class="flex items-center text-sm text-gray-400">
+                            <span class="flex items-center">
+                                <span class="text-success mr-1">★★★★★</span>
+                                4.8 rating • 1,000+ downloads
+                            </span>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- Hero Image/Video -->
+                <div class="relative max-w-4xl mx-auto">
+                    <div
+                        class="bg-gradient-to-br from-primary to-secondary rounded-3xl p-3 sm:p-6 lg:p-8 shadow-2xl"
+                    >
+                        <img
+                            src="./assets/hero-mockup.png"
+                            alt="IntelDrop App Preview"
+                            class="w-full h-auto rounded-2xl shadow-lg"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- App Screenshots -->
+        <section class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800/30">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                        Experience IntelDrop
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+                        See how IntelDrop transforms your learning experience
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8 items-center">
+                    <div class="text-center">
+                        <img
+                            src="./assets/screenshot-1.png"
+                            alt="Learning Dashboard"
+                            class="w-full max-w-xs mx-auto rounded-3xl shadow-lg mb-6"
+                        />
+                        <!-- <h3 class="text-lg font-semibold text-white mt-4">
+                            Personalized Dashboard
+                        </h3>
+                        <p class="text-gray-300 mt-2">
+                            Your learning journey at a glance
+                        </p> -->
+                    </div>
+
+                    <div class="text-center">
+                        <img
+                            src="./assets/screenshot-2.png"
+                            alt="Micro Learning"
+                            class="w-full max-w-xs mx-auto rounded-3xl shadow-lg transform scale-110 mb-6"
+                        />
+                        <!-- <h3 class="text-lg font-semibold text-white mt-4">
+                            Micro Learning
+                        </h3>
+                        <p class="text-gray-300 mt-2">
+                            Bite-sized lessons for maximum retention
+                        </p> -->
+                    </div>
+
+                    <div class="text-center">
+                        <img
+                            src="./assets/screenshot-3.png"
+                            alt="Progress Tracking"
+                            class="w-full max-w-xs mx-auto rounded-3xl shadow-lg mb-6"
+                        />
+                        <!-- <h3 class="text-lg font-semibold text-white mt-4">
+                            Smart Progress
+                        </h3>
+                        <p class="text-gray-300 mt-2">
+                            Track your growth and achievements
+                        </p> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900/30">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                        What Users Say
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+                        Join thousands of learners who've transformed their
+                        education
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div
+                        class="fade-in bg-gray-800/50 p-6 rounded-2xl shadow-lg border border-gray-700"
+                    >
+                        <div class="flex items-center mb-4">
+                            <div class="text-success">★★★★★</div>
+                            <span class="ml-2 text-sm text-gray-400">5.0</span>
+                        </div>
+                        <p class="text-gray-300 mb-4">
+                            "Finally ditched my stack of morning research
+                            emails. One IntelDrop episode tells me more about
+                            market drivers than 12 different newsletters
+                            combined."
+                        </p>
+                        <div class="flex items-center">
+                            <img
+                                src="./assets/avatar-1.jpg"
+                                alt="Sarah"
+                                class="w-10 h-10 rounded-full mr-3"
+                            />
+                            <div>
+                                <div class="font-semibold text-white">
+                                    Investment Advisor
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="fade-in bg-gray-800/50 p-6 rounded-2xl shadow-lg border border-gray-700"
+                    >
+                        <div class="flex items-center mb-4">
+                            <div class="text-success">★★★★★</div>
+                            <span class="ml-2 text-sm text-gray-400">5.0</span>
+                        </div>
+                        <p class="text-gray-300 mb-4">
+                            "It's like having Goldman's macro research team,
+                            Morgan Stanley's geopolitical analysts, and the
+                            Fed's economic staff brief me personally every
+                            morning."
+                        </p>
+                        <div class="flex items-center">
+                            <img
+                                src="./assets/avatar-2.jpg"
+                                alt="Mike"
+                                class="w-10 h-10 rounded-full mr-3"
+                            />
+                            <div>
+                                <div class="font-semibold text-white">
+                                    Consultant
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="fade-in bg-gray-800/50 p-6 rounded-2xl shadow-lg border border-gray-700"
+                    >
+                        <div class="flex items-center mb-4">
+                            <div class="text-success">★★★★★</div>
+                            <span class="ml-2 text-sm text-gray-400">5.0</span>
+                        </div>
+                        <p class="text-gray-300 mb-4">
+                            "Feels like having a dedicated analyst team
+                            monitoring global developments 24/7 and delivering
+                            only what moves markets."
+                        </p>
+                        <div class="flex items-center">
+                            <img
+                                src="./assets/avatar-3.jpg"
+                                alt="Emily"
+                                class="w-10 h-10 rounded-full mr-3"
+                            />
+                            <div>
+                                <div class="font-semibold text-white">
+                                    Retail Investor
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section
+            id="download"
+            class="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-primary to-secondary"
+        >
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                    Download IntelDrop Now
+                </h2>
+                <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                    Transform your commute into competitive advantage. Join the
+                    community of investment professionals who stay ahead of
+                    market trends without research overwhelm.
+                </p>
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                    Your next investment edge is 8 minutes away.
+                </h2>
+
+                <div
+                    class="flex flex-col sm:flex-row items-center justify-center gap-6 mb-8"
+                >
+                    <a href="#" class="app-store-btn-white">
+                        <img
+                            src="./assets/app-store-badge-white.svg"
+                            alt="Download on the App Store"
+                            class="h-14 w-auto"
+                        />
+                    </a>
+                    <div class="text-white/80 text-sm">
+                        <div class="flex items-center justify-center mb-1">
+                            <span class="text-yellow-300 mr-1">★★★★★</span>
+                            <span>4.8 rating</span>
+                        </div>
+                        <div>Free to download • No subscription required</div>
+                    </div>
+                </div>
+
+                <div
+                    class="flex flex-wrap justify-center gap-4 text-white/80 text-sm"
+                >
+                    <span class="flex items-center">
+                        <svg
+                            class="w-4 h-4 mr-1"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                clip-rule="evenodd"
+                            ></path>
+                        </svg>
+                        iOS 14.0+
+                    </span>
+                    <span class="flex items-center">
+                        <svg
+                            class="w-4 h-4 mr-1"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                clip-rule="evenodd"
+                            ></path>
+                        </svg>
+                        20MB Download
+                    </span>
+                    <span class="flex items-center">
+                        <svg
+                            class="w-4 h-4 mr-1"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                clip-rule="evenodd"
+                            ></path>
+                        </svg>
+                        Offline Learning
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="py-12 px-4 sm:px-6 lg:px-8 bg-dark text-white">
+            <div class="max-w-7xl mx-auto">
+                <div
+                    class="flex flex-col md:flex-row justify-between items-center"
+                >
+                    <div class="flex items-center mb-4 md:mb-0">
+                        <img
+                            src="./assets/logo-white.png"
+                            alt="IntelDrop"
+                            class="h-6 w-auto"
+                        />
+                        <span class="ml-2 text-lg font-semibold"
+                            >IntelDrop</span
+                        >
+                    </div>
+
+                    <div class="flex space-x-6 text-sm">
+                        <a href="#" class="hover:text-primary transition-colors"
+                            >Privacy Policy</a
+                        >
+                        <a href="#" class="hover:text-primary transition-colors"
+                            >Terms of Service</a
+                        >
+                        <a href="#" class="hover:text-primary transition-colors"
+                            >Support</a
+                        >
+                    </div>
+                </div>
+
+                <div
+                    class="mt-8 pt-8 border-t border-gray-800 text-center text-sm text-gray-400"
+                >
+                    <p>
+                        &copy; 2024 IntelDrop. All rights reserved. Made with ❤️
+                        for learners everywhere.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JavaScript -->
+        <script src="script.js"></script>
+    </body>
+</html>

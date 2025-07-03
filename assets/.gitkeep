@@ -1,0 +1,43 @@
+# Assets Directory
+
+This directory will contain all static assets for the IntelDrop landing page:
+
+## Required Assets
+
+### App Store Assets
+- `app-store-badge.svg` - Standard App Store download badge
+- `app-store-badge-white.svg` - White version for dark backgrounds
+
+### Branding
+- `logo.svg` - Main IntelDrop logo
+- `logo-white.svg` - White version for dark backgrounds
+- `favicon.ico` - Browser favicon
+- `og-image.jpg` - Open Graph image for social sharing
+
+### App Screenshots
+- `hero-mockup.png` - Main hero section mockup
+- `screenshot-1.png` - Learning Dashboard
+- `screenshot-2.png` - Micro Learning interface
+- `screenshot-3.png` - Progress Tracking
+
+### Testimonials
+- `avatar-1.jpg` - User avatar (Sarah Johnson)
+- `avatar-2.jpg` - User avatar (Mike Chen)
+- `avatar-3.jpg` - User avatar (Emily Rodriguez)
+
+## Image Optimization Guidelines
+
+- Use modern formats (WebP with fallbacks)
+- Optimize for mobile-first loading
+- Maintain high quality for Retina displays
+- Keep file sizes under 500KB each
+- Use appropriate dimensions for responsive design
+
+## Naming Convention
+
+Use descriptive, lowercase names with hyphens:
+- `app-store-badge.svg`
+- `hero-mockup.png`
+- `screenshot-dashboard.png`
+
+This keeps the assets organized and easy to reference in the HTML.
